@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int T,X,Y;
+	scanf("%d",&T);
+	while(T--)
+	{
+	    scanf("%d %d",&X,&Y);
+	    printf("\n%d",X*Y/100);
+	}
+	
+	return 0;
+}
+
